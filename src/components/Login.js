@@ -69,7 +69,7 @@ export default function Login({ setIsLogin }) {
             type="password"
             name="password"
             id="login-password"
-            placeholder="Password (1234)"
+            placeholder="Password (12345)"
             required
             value={user.password}
             autoComplete="true"
