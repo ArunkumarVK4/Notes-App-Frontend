@@ -46,7 +46,7 @@ export default function EditNote({ match }) {
           date,
         };
 
-        await axios.put(`/api/notes/${id}`, newNote, {
+        await axios.put(`https://notes-zb6a.onrender.com/api/notes/${id}`, newNote, {
           headers: { Authorization: token },
         });
 

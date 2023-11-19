@@ -29,7 +29,7 @@ export default function Home() {
   const deleteNote = async (id) => {
     try {
       if (token) {
-        await axios.delete(`api/notes/${id}`, {
+        await axios.delete(`https://notes-zb6a.onrender.com/api/notes/${id}`, {
           headers: { Authorization: token },
         });
         getNotes(token);
