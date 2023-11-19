@@ -59,7 +59,7 @@ export default function Login({ setIsLogin }) {
             type="email"
             name="email"
             id="login-email"
-            placeholder="Email (masteruser@email.com)"
+            placeholder="Email (arun@gmail.com)"
             required
             value={user.email}
             onChange={onChangeInput}
@@ -69,7 +69,7 @@ export default function Login({ setIsLogin }) {
             type="password"
             name="password"
             id="login-password"
-            placeholder="Password (Masteruser975)"
+            placeholder="Password (1234)"
             required
             value={user.password}
             autoComplete="true"
