@@ -12,7 +12,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const getNotes = async (token) => {
-    const res = await axios.get("api/notes", {
+    const res = await axios.get("https://notes-zb6a.onrender.com/api/notes", {
       headers: { Authorization: token },
     });
     setNotes(res.data);

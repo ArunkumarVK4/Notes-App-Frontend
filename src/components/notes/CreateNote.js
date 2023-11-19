@@ -27,7 +27,7 @@ export default function CreateNote() {
           date,
         };
 
-        await axios.post("/api/notes", newNote, {
+        await axios.post("https://notes-zb6a.onrender.com/api/notes", newNote, {
           headers: { Authorization: token },
         });
 
